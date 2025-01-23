@@ -2,7 +2,8 @@ version: '3'
 
 services:
   myapp:
-    build: .
+    build: ./
+    image: antoniomedeiros/learn-docker:latest
     container_name: myapp
     restart: always
     ports:
